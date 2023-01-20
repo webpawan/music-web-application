@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 100% -> 16rem default font size 
+what if we want 10 rem as a default font size
+so we will divide the 10/16 = .625 * 100 = 62.5
+
+*/
+
+body{
+    font-size: 62.5%;
+}
+
+.grid{
+    display: grid;
+
+}
