@@ -1,17 +1,16 @@
 import React from 'react'
-import Body from './components/body/Body'
-import Header from './components/Header/Header'
-import Controller from './components/music controler/Controller'
-import Sidebar from './components/sidebar/Sidebar'
+import Main from './components/pages/Main'
+import Sidebar from './components/sideBar/Sidebar'
 
 const App = () => {
   return (
     <>
-    <div className="grid">
-        <Header/>
-        <Sidebar/>
-        <Body/>
-        <Controller/>
+    <div className="body__container">
+      
+    <div className="container">
+    <Sidebar/>
+    <Main/>
+    </div>
     </div>
     </>
   )
