@@ -4,8 +4,10 @@ import React from "react";
 const MostPopular = () => {
   return (
     <div className="most__popular">
-      <h2 className="p-1 ml-1">most popular</h2>
-      <p className="ml-2">92 songs</p>
+     <div className="most__popular--text">
+     <h2 className="  most__popular--heading">most popular</h2>
+      <p className=" most__popular--peragraph">92 songs</p>
+     </div>
       <div className="song__list--row">
         <div className="song__list">
           <div className="song__details">

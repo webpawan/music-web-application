@@ -8,7 +8,9 @@ const Header = () => {
   <input type="text" className='search__input' placeholder='search song'/>
 </div>
 <div className="status__bar">
-<button>signin</button>
+<button className='header__btn'>
+  sign in
+</button>
 </div>
     </div>
   )
